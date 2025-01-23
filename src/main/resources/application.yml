@@ -25,3 +25,9 @@ aliyun:
     endpoint: https://oss-cn-hangzhou.aliyuncs.com
     bucketName: web-tlias-sunyf
     region: cn-hangzhou
+
+# spring事务管理日志
+logging:
+  level:
+    org.springframework.jdbc.support.JdbcTransactionManager: debug
+

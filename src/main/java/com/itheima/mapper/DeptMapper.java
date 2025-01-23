@@ -20,7 +20,7 @@ public interface DeptMapper {
      * @param id
      */
     @Delete("delete from dept where id = #{id}")
-    void delete(Integer id);
+    void deleteById(Integer id);
 
     /**
      * 新增部门
