@@ -35,7 +35,7 @@ public class DeptServiceImpl implements DeptService {
         try {
             deptMapper.deleteById(id);
 
-            int i = 1 / 0;
+//            int i = 1 / 0;
 
             // 根据部门ID删除员工数据
             empMapper.deleteByDeptId(id);
@@ -56,6 +56,7 @@ public class DeptServiceImpl implements DeptService {
 
     @Override
     public Dept findById(Integer id) {
+//        int i = 1 / 0;
         Dept dept = deptMapper.findById(id);
         return dept;
     }
